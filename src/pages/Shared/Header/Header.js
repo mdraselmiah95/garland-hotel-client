@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import useAuth from "../../../hooks/useAuth";
 import "./Header.css";
 const Header = () => {
-  // const { user, logOut } = useAuth();
+  const { user, logOut } = useAuth();
   return (
     <>
       <Navbar
@@ -36,9 +37,27 @@ const Header = () => {
             <Link className="navItem me-3" to="/gallery">
               Gallery
             </Link>
-            <Link className="navItem me-3" to="/care">
-              Care
-            </Link>
+
+            {user.email ? (
+              <Button onClick={logOut} variant="light" className="mx-2 fw-bold">
+                Logout
+              </Button>
+            ) : (
+              <Link className="navItem me-2" to="/login">
+                LogIn
+              </Link>
+            )}
+
+            <Navbar.Text className="text-black d-flex align-items-center justify-content-center">
+              <a href="#login">
+                {user?.displayName}{" "}
+                <img
+                  src={user?.photoURL}
+                  alt="User"
+                  className="img-fluid w-25 rounded-circle ms-2"
+                />
+              </a>
+            </Navbar.Text>
           </Navbar.Collapse>
         </Container>
       </Navbar>
