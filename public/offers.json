@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Valley Vacay",
+    "offer": "Enjoy up to 20% off our best available rate + a daily $25 food-and-beverage credit",
+    "details": "Book our Valley Vacay promotion for up to 20% off our Best Available Rate and a daily $25 F&B credit!",
+    "details2": "Package includes: Up to 20% off best available rate. $25 daily food & beverage credit",
+    "img": "https://i.ibb.co/P9zncHL/guitar-couple.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Rise & Dine",
+    "offer": "Treat yourself to a mini vacation! Enjoy exclusive rates on a one-night stay with breakfast for two.",
+    "details": "Rest up and relax at The Garland. Enjoy a night with us and wake up to an amazing breakfast thanks to this can’t miss Hollywood experience.",
+    "details2": "Package includes: One-night stay in deluxe accommodations.Breakfast for two ($49 value)*.Rates starting from $309 per night",
+    "img": "https://i.ibb.co/Ld4qGnF/charcuterie.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Troop Beverly's Bootcamp",
+    "offer": "Your adventure awaits! Receive low rates, a hiking guide, in-room massage, and more.",
+    "details": "Your adventure awaits when you book this exclusive deal! Enjoy a night with us and wake up to an amazing breakfast thanks to this can’t miss Hollywood experience.",
+    "details2": "Package includes:One-night stay in Premium accommodations.Complimentary late check-out at 3pm.Breakfast for two ($49 value)*.The Garland water bottles (2).In-room massage for two (60 minutes).Rates starting from $759 per night",
+    "img": "https://i.ibb.co/jWCcW3R/beverly-park-fitness.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Hollywood Hideout",
+    "offer": "Get romantic at The Garland,Plan ahead and save 15% and enjoy a daily dining credit up to $24",
+    "details": "Enjoy a special day at The Garland with our locals only exclusive! Lay low, avoid traffic and hide out from the paparazzi. This one’s for you!",
+    "details2": "Package includes:One-night stay in Deluxe accommodations.Dinner for two ($125 value)*.Complimentary in-room movieDrinks for two ($30 value)*.Rates starting from $498 per night",
+    "img": "https://i.ibb.co/ZdxFc7j/good-times.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Roll Out The Orange Carpet",
+    "offer": "Experience a truly lavish stay, with champagne, dinner, shopping, breakfast in bed, and more.",
+    "details": "Treat yourself to a mini vacation! Perfect for those who want to host their own awards viewing party with friends or just feel like a celebrity.",
+    "details2": "Two-night stay in The James Suite.Private movie screening in Beverly Garland Theatre for up to 50 guests with DIY popcorn and a bartender.Dinner for two at The Front Yard.Luxury black car transportation services to and from the airport or your home if you're an L.A. local",
+    "img": "https://i.ibb.co/gtHJk5T/lobby.jpg "
+  },
+  {
+    "id": 6,
+    "title": "HILTON HONORS EXCLUSIVE SAVINGS",
+    "offer": "Experience a truly lavish stay with Plan ahead and save 15% and enjoy a daily dining credit up to $24",
+    "details": "We're rolling out our signature orange carpet this year! Enjoy a night with us and wake up to an amazing breakfast thanks to this can’t miss Hollywood experience.",
+    "details2": "Two-night stay in The James Suite.Private movie screening in Beverly Garland Theatre for up to 50 guests with DIY popcorn and a bartender.Dinner for two at The Front Yard..Rates starting from $698 per night",
+    "img": "https://i.ibb.co/DRN5Mj9/img6.jpg"
+  },
+  {
+    "id": 7,
+    "title": "HONORS BREAKFAST",
+    "offer": "FL Resident rate offer will be priced at 10% off BAR for non-Honors guests and 12% off BAR for Honors",
+    "details": "Treat yourself to a mini vacation! Enjoy a night with us and wake up to an amazing breakfast thanks to this can’t miss Hollywood experience.",
+    "details2": "Three-night stay in The Jordan Suite.Private movie screening in Beverly Garland Theatre for up to 60 guests with DIY popcorn and a bartender.Dinner for two at The Front Yard..Rates starting from $998 per night",
+    "img": "https://i.ibb.co/mRrjM3m/img7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "AARP MEMBER SAVE 5%",
+    "offer": "Plan your next getaway with great hotel deals in thousands of destinations, including up to 5% off for AARP members*",
+    "details": "As a valued AARP member, you also receive a complimentary late checkout, when available. So, catch a flight to explore a new city or take a weekend road trip you won’t forget. With 12 distinct hotel brands for every budget, style, and occasion, we make it easy to get away wherever travel calls you",
+    "details2": "Three-night stay in The Jordan Suite.Private movie screening in Beverly Garland. hotel will be different from the next, with individuality being a common thread, along with the quiet reassurance of the Hilton name behind every location.",
+    "img": "https://i.ibb.co/vvXdYhv/img8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "BED & BREAKFAST",
+    "offer": "Change or cancel up to 1 day before arrival. Breakfast included for each registered adult and children, age 5 or under, when accompanied by adult diner.*",
+    "details": "As a valued AARP member, you also receive a complimentary late checkout, when available. So, catch a flight to explore a new city or take a weekend road trip you won’t forget.Change or cancel up to 1 day before arrival. Breakfast included for each registered adult and children, age 5.",
+    "details2": "Three-night stay in The Jordan Suite.Private movie screening in Beverly Garland. hotel will be different from the next,Up to 20% off best available rate. $25 daily food & beverage credit",
+    "img": "https://i.ibb.co/C85SPQC/img9.jpg"
+  }
+]
