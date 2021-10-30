@@ -16,3 +16,7 @@
   transform: translate(-50%, 0);
   border-bottom: 2px solid;
 }
+.typing {
+  font-family: "Ultra", serif;
+  color: #62b778;
+}

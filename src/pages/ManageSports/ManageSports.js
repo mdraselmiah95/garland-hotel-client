@@ -1,3 +1,5 @@
+import { faTrash } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import "./ManageSports.css";
 const ManageSports = () => {
@@ -26,7 +28,9 @@ const ManageSports = () => {
 
   return (
     <div className="my-5">
-      <h2>This is ManageSports{sports.length}</h2>
+      <h2 className="text-center fw-bolder fs-2">
+        Total Items: {sports.length}
+      </h2>
       <div className="row container text-center mx-auto">
         {sports?.map((item) => (
           <div key={item._id} className="col-md-6 col-lg-4 gy-4">
@@ -43,6 +47,11 @@ const ManageSports = () => {
                 onClick={() => handleDelete(item._id)}
                 className="btn btn-outline-danger"
               >
+                <FontAwesomeIcon
+                  icon={faTrash}
+                  className="me-2 
+                "
+                />
                 DELETE
               </button>
             </div>

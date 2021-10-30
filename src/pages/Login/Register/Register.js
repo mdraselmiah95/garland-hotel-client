@@ -6,7 +6,7 @@ import "./Register";
 const Register = () => {
   return (
     <div className="container my-5">
-      <h2>Create Account:</h2>
+      <h2 className="fw-bold text-success">Create New Account:</h2>
       <div className="row align-items-center">
         <div className="col-md-6">
           <img

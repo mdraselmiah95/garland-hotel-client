@@ -1,8 +1,13 @@
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { faBackward, faUserLock } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBackward,
+  faUserLock,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link, NavLink, useHistory, useLocation } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 import useAuth from "../../../hooks/useAuth";
 import "./LogIn.css";
 const LogIn = () => {
@@ -18,7 +23,20 @@ const LogIn = () => {
   const img = "https://i.ibb.co/7VbG2Ww/unlock.png";
   return (
     <div className="container my-5">
-      <h2>This is Login.</h2>
+      <h2 className="fw-bold">
+        <FontAwesomeIcon icon={faUsers} className="me-2" />
+        Please Login:
+        <span className="text-warning">
+          <Typewriter
+            options={{
+              strings: ["LogIn Or Google Sing In"],
+              autoStart: true,
+              loop: true,
+              delay: 200,
+            }}
+          ></Typewriter>
+        </span>
+      </h2>
       <div className="row align-items-center">
         <div className="col-md-6 border p-4">
           <form>
@@ -53,14 +71,14 @@ const LogIn = () => {
                 />
               </div>
             </div>
-            <button type="submit" className="btn btn-outline-primary">
+            <button type="submit" className="btn btn-outline-success">
               <FontAwesomeIcon icon={faUserLock} className="me-2" />
               Submit
             </button>
           </form>
           <p>
             Create New Account:
-            <Link to="/register" className="btn btn-outline-primary ms-2">
+            <Link to="/register" className="btn btn-outline-secondary ms-2">
               <FontAwesomeIcon icon={faUserLock} className="me-2" />
               LogIn
             </Link>
@@ -76,7 +94,10 @@ const LogIn = () => {
         <div className="col-md-6">
           <img src={img} alt="login" className="img-fluid" />
         </div>
-        <button className="btn btn-outline-warning" onClick={handleGoogleLogin}>
+        <button
+          className="btn btn-outline-info fw-bold py-2 fs-4"
+          onClick={handleGoogleLogin}
+        >
           <FontAwesomeIcon icon={faGoogle} className="me-2" />
           Google Sign In
         </button>
