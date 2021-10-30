@@ -62,9 +62,9 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faHome} className="me-2" />
                     HOME
                   </NavLink>
-                  <NavLink to="/care" className="footer-menu ">
+                  <NavLink to="/sports" className="footer-menu ">
                     <FontAwesomeIcon icon={faLink} className="me-2" />
-                    CARE
+                    SPORTS
                   </NavLink>
                   <NavLink to="/gallery" className="footer-menu ">
                     <FontAwesomeIcon icon={faEnvira} className="me-2" />

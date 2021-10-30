@@ -2,45 +2,73 @@ import React from "react";
 import "./Gallery.css";
 
 const Gallery = () => {
+  const img1 = "https://i.ibb.co/2yDG0mR/img1.png";
+  const img2 = "https://i.ibb.co/JdpSxnN/img2.png";
+  const img3 = "https://i.ibb.co/yfSq2DK/img3.png";
+  const img4 = "https://i.ibb.co/rwVGnKt/img4.png";
+  const img5 = "https://i.ibb.co/1mL7V0f/img5.png";
+
+  const img6 = "https://i.ibb.co/s1CDpTK/img6.png";
+  const img7 = "https://i.ibb.co/Cwj9Jcg/img7.png";
+  const img8 = "https://i.ibb.co/fSfFH6s/img8.png";
+  const img9 = "https://i.ibb.co/M6H5bd2/img9.png";
+  const img10 = "https://i.ibb.co/Xxxqswj/img10.png";
+
+  const img11 = "https://i.ibb.co/X5gNVXj/img11.png";
+  const img12 = "https://i.ibb.co/7V44GD0/img12.png";
+  const img13 = "https://i.ibb.co/3pxFxwf/img13.png";
+  const img14 = "https://i.ibb.co/Vjj2K9t/img14.png";
+  const img15 = "https://i.ibb.co/XSrx5Bm/img15.png";
+
+  const img16 = "https://i.ibb.co/pKT2XSc/img16.png";
+  const img17 = "https://i.ibb.co/M5Q8k2Z/img17.png";
+  const img18 = "https://i.ibb.co/k9cPk4Z/img18.png";
+  const img19 = "https://i.ibb.co/1mL7V0f/img5.png";
+
+  const img21 = "https://i.ibb.co/XFLMG2K/beverly-park-fitness.jpg";
+  const img24 = "https://i.ibb.co/LvYG2v5/guitar-couple.jpg";
+  const img25 = "https://i.ibb.co/jWvqmXq/img6.jpg";
+
   return (
-    <div>
-      <h2>This is Gallery.</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quod
-        delectus deleniti nam, optio amet fugiat unde quibusdam totam? Expedita
-        ea fugiat tempora recusandae beatae rem, blanditiis modi neque, labore
-        temporibus nemo deserunt fugit obcaecati dolorum dolor quos similique
-        molestias dignissimos? Fugit voluptas sequi aliquam similique commodi
-        doloribus, tenetur deserunt eligendi eveniet soluta possimus numquam,
-        repellendus, alias fugiat? Esse eum commodi dolor, ea inventore suscipit
-        doloribus deserunt ex provident quidem! Odit, libero officiis modi amet
-        perferendis natus explicabo est eum, obcaecati quisquam, enim deleniti
-        eaque suscipit ea. Rem illo beatae eum harum, sint omnis nemo excepturi
-        sit unde nulla neque ipsa iusto necessitatibus iure cum tempore porro
-        impedit, pariatur animi at labore? Velit, et. Dignissimos assumenda
-        dolor, exercitationem quod inventore perferendis aperiam cumque tenetur,
-        aliquid ea laboriosam non, ab sit reiciendis iste sapiente numquam
-        totam. Rem fugit nesciunt sit similique maxime assumenda adipisci nisi
-        eius natus delectus voluptates impedit vitae totam necessitatibus ipsum
-        doloribus quae inventore quia consequuntur alias animi, beatae
-        consequatur. Non dolore qui dolorem nihil minus molestias impedit
-        voluptates earum aut dicta? Perspiciatis ducimus voluptatum omnis
-        maiores, cum pariatur perferendis, sapiente reprehenderit dolor nisi
-        beatae dolore minus nulla laborum tenetur! Doloremque facilis unde,
-        illum id, eos obcaecati reprehenderit officiis est ipsam vero qui
-        necessitatibus cumque nostrum incidunt esse iusto omnis voluptatem,
-        similique consequuntur voluptatibus totam sint. Recusandae, hic est
-        obcaecati minus odio architecto! Totam, quibusdam delectus. Quo odit
-        velit iusto nemo rem eveniet voluptatem saepe repudiandae sit incidunt!
-        Quam dignissimos id assumenda, earum fugiat harum magni dolores,
-        veritatis dolore placeat dolorem rerum consequatur ullam ipsa
-        praesentium laborum exercitationem architecto. Vitae natus consequatur
-        nihil accusamus nobis, quo iste quam vero aperiam fugiat consectetur vel
-        consequuntur quia! Debitis illo praesentium labore officia laborum
-        commodi. Illo, corrupti. Labore architecto iste qui minus sapiente
-        ratione cupiditate, dolorem ea voluptates iure veniam natus!
-      </p>
-    </div>
+    <>
+      <div className="container-fluid my-5">
+        <div className="img-row">
+          <div class="img-column">
+            <img src={img1} alt="gallery" />
+            <img src={img2} alt="gallery" />
+            <img src={img3} alt="gallery" />
+            <img src={img4} alt="gallery" />
+            <img src={img5} alt="gallery" />
+            <img src={img21} alt="gallery" />
+          </div>
+
+          <div class="img-column">
+            <img src={img6} alt="gallery" />
+            <img src={img7} alt="gallery" />
+            <img src={img8} alt="gallery" />
+            <img src={img9} alt="gallery" />
+            <img src={img10} alt="gallery" />
+            <img src={img25} alt="gallery" />
+          </div>
+
+          <div class="img-column">
+            <img src={img11} alt="gallery" />
+            <img src={img12} alt="gallery" />
+            <img src={img13} alt="gallery" />
+            <img src={img14} alt="gallery" />
+            <img src={img15} alt="gallery" />
+          </div>
+
+          <div class="img-column">
+            <img src={img16} alt="gallery" />
+            <img src={img17} alt="gallery" />
+            <img src={img18} alt="gallery" />
+            <img src={img19} alt="gallery" />
+            <img src={img24} alt="gallery" />
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
