@@ -19,7 +19,7 @@ const ManageSports = () => {
       .then((res) => res.json())
       .then((data) => {
         if (data.deletedCount) {
-          alert("Deleted");
+          alert("Confirm Deleted");
           const remaining = sports.filter((data) => data._id !== id);
           setSports(remaining);
         }
