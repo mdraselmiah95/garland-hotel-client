@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 import "./Gallery.css";
 
 const Gallery = () => {
@@ -32,6 +33,20 @@ const Gallery = () => {
   return (
     <>
       <div className="container-fluid my-5">
+        <h2 className="text-center img-h2">VISUAL TOUR</h2>
+        <h5 className="text-center img-h5">
+          Our boutique hotel channels the classic Tropical Art Deco style of L.
+          Murry Dixon with touches of the Italian Riviera, along with luscious
+          amenities for...
+          <Typewriter
+            options={{
+              strings: ["The Complete South Beach Experience. Have a Look!"],
+              autoStart: true,
+              loop: true,
+              delay: 200,
+            }}
+          ></Typewriter>
+        </h5>
         <div className="img-row">
           <div class="img-column">
             <img src={img1} alt="gallery" />

@@ -1,3 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Rampart+One&display=swap");
+
+.img-h2 {
+  font-family: "Rampart One", cursive;
+  font-size: 3.55rem;
+  font-family: "Rampart One", cursive;
+  font-weight: 600;
+  color: #bf787b;
+  margin: 2% 0;
+}
+
+.img-h5 {
+  font-family: "Lobster Two", cursive;
+  font-size: 1.375rem;
+  margin: 2% 13%;
+  font-family: "Lobster Two", cursive;
+  font-weight: 600;
+  color: #407676;
+}
 .img-row {
   display: flex;
   flex-wrap: wrap;
