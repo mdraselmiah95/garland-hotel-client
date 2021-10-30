@@ -4,6 +4,7 @@ import Offers from "../Offers/Offers";
 import Beauty from "../Parallax/Beauty";
 import Slider from "../Slider/Slider";
 import "./Home.css";
+
 const Home = () => {
   return (
     <div>
