@@ -6,13 +6,13 @@ const ManageSports = () => {
   const [sports, setSports] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/sports")
+    fetch("https://intense-reaches-77189.herokuapp.com/sports")
       .then((res) => res.json())
       .then((data) => setSports(data));
   }, []);
 
   const handleDelete = (id) => {
-    const url = `http://localhost:5000/sports/${id}`;
+    const url = `https://intense-reaches-77189.herokuapp.com/sports/${id}`;
     fetch(url, {
       method: "DELETE",
     })

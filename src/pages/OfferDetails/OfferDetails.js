@@ -9,7 +9,7 @@ const OfferDetails = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/offers")
+    fetch("https://intense-reaches-77189.herokuapp.com/offers")
       .then((res) => res.json())
       .then((result) => setData(result));
   }, []);

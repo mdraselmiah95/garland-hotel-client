@@ -5,7 +5,7 @@ import "./Sports.css";
 const Sports = () => {
   const [sports, setSports] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/sports")
+    fetch("https://intense-reaches-77189.herokuapp.com/sports")
       .then((res) => res.json())
       .then((result) => setSports(result));
   }, []);

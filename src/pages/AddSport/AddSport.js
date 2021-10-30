@@ -14,12 +14,14 @@ const AddSport = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    axios.post("http://localhost:5000/sports", data).then((res) => {
-      if (res.data.insertedId) {
-        alert("Added Successfully");
-        reset();
-      }
-    });
+    axios
+      .post("https://intense-reaches-77189.herokuapp.com/sports", data)
+      .then((res) => {
+        if (res.data.insertedId) {
+          alert("Added Successfully");
+          reset();
+        }
+      });
   };
   const url = "https://i.ibb.co/HxQx84d/update.png";
   return (
