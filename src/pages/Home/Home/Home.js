@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Offers from "../Offers/Offers";
 import Beauty from "../Parallax/Beauty";
 import Slider from "../Slider/Slider";
+import Sports from "../Sports/Sports";
 import "./Home.css";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Banner />
       <Offers />
       <Slider />
+      <Sports />
       <Beauty />
     </div>
   );

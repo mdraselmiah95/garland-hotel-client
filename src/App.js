@@ -2,11 +2,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import AuthProvider from "./context/AuthProvider";
+import AddSport from "./pages/AddSport/AddSport";
 import Gallery from "./pages/Home/Gallery/Gallery";
 import Home from "./pages/Home/Home/Home";
 import LogIn from "./pages/Login/Login/LogIn";
 import PrivateRoute from "./pages/Login/PrivateRoute/PrivateRoute";
 import Register from "./pages/Login/Register/Register";
+import ManageSports from "./pages/ManageSports/ManageSports";
 import NotFound from "./pages/NotFound/NotFound";
 import OfferDetails from "./pages/OfferDetails/OfferDetails";
 import Footer from "./pages/Shared/Footer/Footer";
@@ -28,6 +30,12 @@ function App() {
             <PrivateRoute path="/offerDetails/:id">
               <OfferDetails />
             </PrivateRoute>
+            <Route path="/addSport">
+              <AddSport />
+            </Route>
+            <Route path="/manageSports">
+              <ManageSports />
+            </Route>
             <Route path="/gallery">
               <Gallery />
             </Route>

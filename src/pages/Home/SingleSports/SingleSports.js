@@ -1,0 +1,62 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./SingleSports.css";
+const SingleSports = (props) => {
+  const { title, details, img } = props.sport;
+  return (
+    <div className="col-lg-4 col-md-6 sports">
+      <div className="col">
+        <div
+          className="card p-2 text-center shadow"
+          style={{ height: "540px" }}
+        >
+          <img src={img} className="rounded img-fluid" alt="photos" />
+          <div className="card-body">
+            <h4 className="card-title py-3">{title}</h4>
+            <p className="">{details}</p>
+          </div>
+          <div className="d-flex flex-row justify-content-around">
+            <NavLink to="/addSport" className="d-inline ms-2">
+              <button className="btn btn-outline-primary">UPDATE</button>
+            </NavLink>
+            <NavLink to="/manageSports" className="d-inline ms-2">
+              <button className="btn btn-outline-primary">DELETE</button>
+            </NavLink>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default SingleSports;
+
+/* 
+
+
+
+
+  <div className="col-lg-4 col-md-6 offer">
+      <div className="col">
+        <div
+          className="card p-2 text-center shadow"
+          style={{ height: "550px" }}
+        >
+          <img src={img} className="rounded img-fluid" alt="photos" />
+          <div className="card-body">
+            <h4 className="card-title py-3">{title}</h4>
+            <p className="">{offer}</p>
+            <Link to={`/offerDetails/${id}`}>
+              <button className="btn btn-outline-dark">
+                <FontAwesomeIcon
+                  icon={faAngleDoubleRight}
+                  className="me-2 
+                "
+                />
+                LEARN MORE
+              </button>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </div>
+*/
