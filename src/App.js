@@ -30,12 +30,12 @@ function App() {
             <PrivateRoute path="/offerDetails/:id">
               <OfferDetails />
             </PrivateRoute>
-            <Route path="/addSport">
+            <PrivateRoute path="/addSport">
               <AddSport />
-            </Route>
-            <Route path="/manageSports">
+            </PrivateRoute>
+            <PrivateRoute path="/manageSports">
               <ManageSports />
-            </Route>
+            </PrivateRoute>
             <Route path="/gallery">
               <Gallery />
             </Route>
